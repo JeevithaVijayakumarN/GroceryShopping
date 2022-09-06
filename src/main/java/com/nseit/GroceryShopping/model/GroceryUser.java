@@ -2,6 +2,7 @@ package com.nseit.GroceryShopping.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
+import org.hibernate.annotations.Cascade;
 
 import javax.persistence.*;
 import java.util.Set;
@@ -20,14 +21,20 @@ public class GroceryUser {
     private String email;
     private Long phone;
     private String password;
+
     @JsonIgnore
     @OneToOne(mappedBy = "groceryUser", cascade = CascadeType.ALL)
     private Cart cart;
+
+    @JsonIgnore
     @OneToMany(mappedBy = "groceryUser", cascade = CascadeType.ALL)
-    private Set<Order> orders;
+    private Set<OrderProducts> orderProducts;
+
     @ManyToMany
-    @JoinTable(name = "user_role", joinColumns = {@JoinColumn(name = "USER_ID")},
-            inverseJoinColumns = {@JoinColumn(name = "ROLE_ID")})
+    @JsonIgnore
+    @Cascade({org.hibernate.annotations.CascadeType.ALL})
+    @JoinTable(joinColumns = {@JoinColumn(name = "user_id", referencedColumnName = "id")},
+            inverseJoinColumns = {@JoinColumn(name = "role_id", referencedColumnName = "id")})
     private Set<Role> roles;
 
     public GroceryUser(String userName, String password) {

@@ -16,12 +16,5 @@ public class AdminController {
     @Autowired
     private CategoryService categoryService;
 
-    @PostMapping("/category")
-    public ResponseEntity<Category> addCategory(@RequestBody Category category){
-        Category cat = categoryService.addCategory(category);
-        if (cat == null) {
-            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-        }
-        return new ResponseEntity<>(cat, HttpStatus.OK);
-    }
+
 }

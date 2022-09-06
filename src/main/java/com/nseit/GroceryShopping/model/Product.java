@@ -1,5 +1,6 @@
 package com.nseit.GroceryShopping.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
 import javax.persistence.*;
@@ -8,18 +9,25 @@ import java.util.Set;
 @Entity
 @Getter
 @Setter
+@ToString
+@Table(name = "product")
 public class Product {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer productId;
+    private Integer id;
     private String productName;
     private Integer price;
-    @ManyToOne(cascade = CascadeType.ALL)
-    private Category category;
-    @ManyToMany(mappedBy = "products",cascade = CascadeType.ALL,fetch = FetchType.EAGER)
-    private Set<Order> orders;
-    @ManyToMany(mappedBy = "products",cascade = CascadeType.ALL,fetch = FetchType.EAGER)
-    private Set<Cart> carts;
 
+    @JsonIgnore
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "category_id",nullable=false)
+    private Category category;
+
+    @ManyToMany(mappedBy = "products",cascade = CascadeType.ALL)
+    private Set<OrderProducts> orderProducts;
+
+    @OneToMany(mappedBy = "product",cascade = CascadeType.ALL)
+    private Set<CartGrocery> cartGroceries;
 
 }

@@ -1,7 +1,12 @@
 package com.nseit.GroceryShopping.service;
 
+import com.nseit.GroceryShopping.exception.ResourceAlreadyExistException;
+import com.nseit.GroceryShopping.exception.ResourceNotFoundException;
+import com.nseit.GroceryShopping.model.Cart;
 import com.nseit.GroceryShopping.model.GroceryUser;
 import com.nseit.GroceryShopping.model.Role;
+import com.nseit.GroceryShopping.repository.CartRepository;
+import com.nseit.GroceryShopping.repository.RoleRepository;
 import com.nseit.GroceryShopping.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -18,23 +23,33 @@ public class UserService {
     @Autowired
     private UserRepository userRepository;
 
-    public GroceryUser registerAsCustomer(GroceryUser groceryUser) {
-        Role role = new Role();
-        role.setName(Role.ROLE_USER);
-        groceryUser.setRoles(Set.of(role));
-       groceryUser.setPassword(bCryptPasswordEncoder.encode(groceryUser.getPassword()));
-        return userRepository.save(groceryUser);
-    }
+    @Autowired
+    private CartRepository cartRepository;
 
-    public List<GroceryUser> getAllUsers() {
-        return userRepository.findAll();
+    @Autowired
+    private RoleRepository roleRepository;
+
+    public GroceryUser registerAsCustomer(GroceryUser groceryUser) {
+        GroceryUser user = userRepository.findByUserName(groceryUser.getUserName());
+        if (user != null) {
+            throw new ResourceAlreadyExistException("User Already Exception");
+        }
+        Role role = roleRepository.findByName(Role.USER);
+        groceryUser.setRoles(Set.of(role));
+        groceryUser.setPassword(bCryptPasswordEncoder.encode(groceryUser.getPassword()));
+        groceryUser = userRepository.save(groceryUser);
+        Cart cart = new Cart();
+        cart.setGroceryUser(groceryUser);
+        cartRepository.save(cart);
+        return groceryUser;
     }
 
     public GroceryUser loginAsCustomer(GroceryUser groceryUser) {
         GroceryUser user = userRepository.findByUserName(groceryUser.getUserName());
-        if (user != null && bCryptPasswordEncoder.matches(user.getPassword(),groceryUser.getPassword())) {
+        if (user != null && bCryptPasswordEncoder.matches(groceryUser.getPassword(), user.getPassword())) {
             return user;
+        } else {
+            throw new ResourceNotFoundException("Invalid username or password.");
         }
-        return null;
     }
 }

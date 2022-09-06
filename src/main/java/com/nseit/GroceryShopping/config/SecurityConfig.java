@@ -46,9 +46,7 @@ public class SecurityConfig {
                 .and()
                 .authorizeRequests()
                 .antMatchers("/api/admin/**")
-                .hasAnyRole(Role.ROLE_ADMIN)
-                .antMatchers("/api/bookart/**")
-                .hasAnyRole(Role.ROLE_ADMIN,  Role.ROLE_USER)
+                .hasAnyRole(Role.ADMIN)
                 .anyRequest()
                 .authenticated()
                 .and().httpBasic()
@@ -61,4 +59,5 @@ public class SecurityConfig {
     }
 
 }
+
 

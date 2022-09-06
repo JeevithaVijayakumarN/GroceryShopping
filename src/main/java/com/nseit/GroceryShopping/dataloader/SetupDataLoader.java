@@ -54,7 +54,6 @@ public class SetupDataLoader implements ApplicationListener<ContextRefreshedEven
         }
         return role;
     }
-
     @Transactional
     private GroceryUser createUserIfNotFound(final String name, final Role role) {
         GroceryUser user = userRepository.findByUserName(name);
