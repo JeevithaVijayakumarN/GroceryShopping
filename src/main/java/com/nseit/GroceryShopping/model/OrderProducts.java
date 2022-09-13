@@ -30,6 +30,9 @@ public class OrderProducts {
             inverseJoinColumns = @JoinColumn(name = "product_id"))
     private Set<Product> products;
 
+
+
+
     public OrderProducts() {
         this.dateTime = LocalDateTime.now();
     }

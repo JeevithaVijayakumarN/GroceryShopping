@@ -1,6 +1,6 @@
 package com.nseit.GroceryShopping.config;
 
-import com.nseit.GroceryShopping.model.Role;
+
 import com.nseit.GroceryShopping.service.GroceryUserDetailsService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -20,12 +20,15 @@ import org.springframework.security.web.SecurityFilterChain;
 public class SecurityConfig {
     @Bean
     public BCryptPasswordEncoder bCryptPasswordEncoder() {
+
         return new BCryptPasswordEncoder();
     }
 
     @Bean
     public UserDetailsService userDetailsService() {
-        return (UserDetailsService) new GroceryUserDetailsService();
+
+        return (UserDetailsService)
+                new GroceryUserDetailsService();
     }
 
     @Bean
@@ -43,12 +46,12 @@ public class SecurityConfig {
                 .authorizeRequests()
                 .antMatchers("/api/auth/**")
                 .permitAll()
-                .and()
-                .authorizeRequests()
-                .antMatchers("/api/admin/**")
-                .hasAnyRole(Role.ADMIN)
-                .anyRequest()
-                .authenticated()
+//                .and()
+//                .authorizeRequests()
+//                .antMatchers("/api/admin/**")
+//                .hasAnyRole(Role.ADMIN)
+//                .anyRequest()
+//                .authenticated()
                 .and().httpBasic()
                 .and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 

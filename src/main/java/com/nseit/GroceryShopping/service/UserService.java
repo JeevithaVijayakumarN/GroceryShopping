@@ -38,6 +38,7 @@ public class UserService {
         groceryUser.setRoles(Set.of(role));
         groceryUser.setPassword(bCryptPasswordEncoder.encode(groceryUser.getPassword()));
         groceryUser = userRepository.save(groceryUser);
+        System.out.println(groceryUser.toString());
         Cart cart = new Cart();
         cart.setGroceryUser(groceryUser);
         cartRepository.save(cart);

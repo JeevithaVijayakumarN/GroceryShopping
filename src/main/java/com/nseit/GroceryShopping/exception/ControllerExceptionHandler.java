@@ -23,35 +23,35 @@ public class ControllerExceptionHandler extends ResponseEntityExceptionHandler {
     @ExceptionHandler(ResourceNotFoundException.class)
     public ResponseEntity<APIResponse> resourceNotFoundException(ResourceNotFoundException ex, WebRequest request) {
         apiResponse = errorResponseBuilder(ex.getMessage(), request);
-        return new ResponseEntity<>(apiResponse, HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(apiResponse, HttpStatus.OK);
     }
 
     @ExceptionHandler(ResourceAlreadyExistException.class)
     public ResponseEntity<APIResponse> userExistException(ResourceAlreadyExistException ex, WebRequest request) {
         apiResponse = errorResponseBuilder(ex.getMessage(), request);
 
-        return new ResponseEntity<>(apiResponse, HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(apiResponse, HttpStatus.OK);
     }
 
     @ExceptionHandler(UnableToInsertException.class)
     public ResponseEntity<APIResponse> unableToInsertException(ResourceAlreadyExistException ex, WebRequest request) {
         apiResponse = errorResponseBuilder(ex.getMessage(), request);
 
-        return new ResponseEntity<>(apiResponse, HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(apiResponse, HttpStatus.OK);
     }
 
     @ExceptionHandler(UnableToUpdateException.class)
     public ResponseEntity<APIResponse> unableToUpdateException(ResourceAlreadyExistException ex, WebRequest request) {
         apiResponse = errorResponseBuilder(ex.getMessage(), request);
 
-        return new ResponseEntity<>(apiResponse, HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(apiResponse, HttpStatus.OK);
     }
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<APIResponse> globalExceptionHandler(Exception ex, WebRequest request) {
         apiResponse = errorResponseBuilder(ex.getMessage(), request);
 
-        return new ResponseEntity<>(apiResponse, HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(apiResponse, HttpStatus.OK);
     }
 
     private APIResponse errorResponseBuilder(String ex, WebRequest request) {
