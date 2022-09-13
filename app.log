@@ -66,3 +66,408 @@
 2022-09-13 10:55:19 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-09-13 11:02:09 - INFO - HikariPool-1 - Shutdown initiated...
 2022-09-13 11:02:09 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 11:38:40 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 15700 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 11:38:40 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 11:38:42 - INFO - Starting service [Tomcat]
+2022-09-13 11:38:42 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 11:38:42 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 11:38:42 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 11:38:42 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 11:38:42 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 11:38:42 - INFO - HikariPool-1 - Starting...
+2022-09-13 11:38:42 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 11:38:43 - INFO - HikariPool-1 - Start completed.
+2022-09-13 11:38:43 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 11:38:44 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-13 11:38:46 - INFO - Started GroceryShoppingApplication in 6.224 seconds (JVM running for 6.831)
+2022-09-13 11:40:44 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 11:40:44 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 11:40:51 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 14228 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 11:40:51 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 11:40:53 - INFO - Starting service [Tomcat]
+2022-09-13 11:40:53 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 11:40:53 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 11:40:53 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 11:40:53 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 11:40:53 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 11:40:53 - INFO - HikariPool-1 - Starting...
+2022-09-13 11:40:53 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 11:40:54 - INFO - HikariPool-1 - Start completed.
+2022-09-13 11:40:54 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 11:40:55 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-13 11:40:56 - INFO - Started GroceryShoppingApplication in 6.09 seconds (JVM running for 6.647)
+2022-09-13 11:56:12 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 11:56:12 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 11:56:17 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 15312 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 11:56:17 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 11:56:18 - INFO - Starting service [Tomcat]
+2022-09-13 11:56:18 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 11:56:18 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 11:56:18 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 11:56:18 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 11:56:18 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 11:56:18 - INFO - HikariPool-1 - Starting...
+2022-09-13 11:56:18 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 11:56:18 - INFO - HikariPool-1 - Start completed.
+2022-09-13 11:56:18 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 11:56:19 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-13 11:56:20 - INFO - Started GroceryShoppingApplication in 3.769 seconds (JVM running for 4.134)
+2022-09-13 11:57:47 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 11:57:47 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 12:00:39 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 17556 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 12:00:39 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 12:00:40 - INFO - Starting service [Tomcat]
+2022-09-13 12:00:40 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 12:00:40 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 12:00:40 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 12:00:40 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 12:00:40 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 12:00:40 - INFO - HikariPool-1 - Starting...
+2022-09-13 12:00:40 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 12:00:41 - INFO - HikariPool-1 - Start completed.
+2022-09-13 12:00:41 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 12:00:41 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-13 12:00:42 - INFO - Started GroceryShoppingApplication in 3.666 seconds (JVM running for 4.046)
+2022-09-13 12:01:43 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 12:01:43 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 13:44:45 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 13468 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 13:44:45 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 13:44:47 - INFO - Starting service [Tomcat]
+2022-09-13 13:44:47 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 13:44:47 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 13:44:47 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 13:44:48 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 13:44:48 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 13:44:48 - INFO - HikariPool-1 - Starting...
+2022-09-13 13:44:48 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 13:44:48 - INFO - HikariPool-1 - Start completed.
+2022-09-13 13:44:48 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 13:44:49 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-13 13:44:50 - INFO - Started GroceryShoppingApplication in 5.405 seconds (JVM running for 5.952)
+2022-09-13 13:49:33 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 13:49:33 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 13:58:32 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 14640 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 13:58:32 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 13:58:33 - INFO - Starting service [Tomcat]
+2022-09-13 13:58:33 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 13:58:34 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 13:58:34 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 13:58:34 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 13:58:34 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 13:58:34 - INFO - HikariPool-1 - Starting...
+2022-09-13 13:58:34 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 13:58:34 - INFO - HikariPool-1 - Start completed.
+2022-09-13 13:58:34 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 13:58:35 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-13 13:58:37 - INFO - Started GroceryShoppingApplication in 5.571 seconds (JVM running for 6.098)
+2022-09-13 13:59:12 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 13:59:12 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 14:08:36 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 6792 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 14:08:36 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 14:08:38 - INFO - Starting service [Tomcat]
+2022-09-13 14:08:38 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 14:08:38 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 14:08:39 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 14:08:39 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 14:08:39 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 14:08:39 - INFO - HikariPool-1 - Starting...
+2022-09-13 14:08:39 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 14:08:39 - INFO - HikariPool-1 - Start completed.
+2022-09-13 14:08:39 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 14:08:39 - ERROR - Failed to initialize JPA EntityManagerFactory: @OneToOne or @ManyToOne on com.nseit.GroceryShopping.model.UserHistory.orderProducts references an unknown entity: java.util.Set
+2022-09-13 14:08:39 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 14:08:39 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 14:08:39 - INFO - Stopping service [Tomcat]
+2022-09-13 14:08:39 - ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.nseit.GroceryShopping.model.UserHistory.orderProducts references an unknown entity: java.util.Set
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.nseit.GroceryShopping.GroceryShoppingApplication.main(GroceryShoppingApplication.java:11)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.nseit.GroceryShopping.model.UserHistory.orderProducts references an unknown entity: java.util.Set
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:100)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processEndOfQueue(InFlightMetadataCollectorImpl.java:1750)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processFkSecondPassesInOrder(InFlightMetadataCollectorImpl.java:1694)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1623)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:295)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 19 common frames omitted
+2022-09-13 14:12:29 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 15356 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 14:12:29 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 14:12:31 - INFO - Starting service [Tomcat]
+2022-09-13 14:12:31 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 14:12:31 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 14:12:31 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 14:12:31 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 14:12:31 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 14:12:31 - INFO - HikariPool-1 - Starting...
+2022-09-13 14:12:31 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 14:12:32 - INFO - HikariPool-1 - Start completed.
+2022-09-13 14:12:32 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 14:12:33 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-13 14:12:34 - INFO - Started GroceryShoppingApplication in 5.974 seconds (JVM running for 6.53)
+2022-09-13 14:12:34 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-13 14:14:54 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 14:14:54 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 14:15:00 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 9760 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 14:15:00 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 14:15:02 - INFO - Starting service [Tomcat]
+2022-09-13 14:15:02 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 14:15:02 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 14:15:02 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 14:15:02 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 14:15:02 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 14:15:02 - INFO - HikariPool-1 - Starting...
+2022-09-13 14:15:02 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 14:15:03 - INFO - HikariPool-1 - Start completed.
+2022-09-13 14:15:03 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 14:15:04 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-13 14:15:05 - INFO - Started GroceryShoppingApplication in 5.991 seconds (JVM running for 6.633)
+2022-09-13 14:15:06 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-13 14:15:52 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 14:15:52 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 14:19:50 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 16488 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 14:19:50 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 14:19:52 - INFO - Starting service [Tomcat]
+2022-09-13 14:19:52 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 14:19:52 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 14:19:52 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 14:19:52 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 14:19:52 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 14:19:52 - INFO - HikariPool-1 - Starting...
+2022-09-13 14:19:52 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 14:19:53 - INFO - HikariPool-1 - Start completed.
+2022-09-13 14:19:53 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 14:19:53 - ERROR - Failed to initialize JPA EntityManagerFactory: @OneToOne or @ManyToOne on com.nseit.GroceryShopping.model.UserHistory.cart references an unknown entity: java.util.Set
+2022-09-13 14:19:53 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 14:19:53 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 14:19:53 - INFO - Stopping service [Tomcat]
+2022-09-13 14:19:53 - ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.nseit.GroceryShopping.model.UserHistory.cart references an unknown entity: java.util.Set
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.nseit.GroceryShopping.GroceryShoppingApplication.main(GroceryShoppingApplication.java:11)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.nseit.GroceryShopping.model.UserHistory.cart references an unknown entity: java.util.Set
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:100)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processEndOfQueue(InFlightMetadataCollectorImpl.java:1750)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processFkSecondPassesInOrder(InFlightMetadataCollectorImpl.java:1694)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1623)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:295)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 19 common frames omitted
+2022-09-13 14:20:32 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 8792 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 14:20:32 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 14:20:34 - INFO - Starting service [Tomcat]
+2022-09-13 14:20:34 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 14:20:34 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 14:20:35 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 14:20:35 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 14:20:35 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 14:20:35 - INFO - HikariPool-1 - Starting...
+2022-09-13 14:20:35 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 14:20:35 - INFO - HikariPool-1 - Start completed.
+2022-09-13 14:20:35 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 14:20:35 - ERROR - Failed to initialize JPA EntityManagerFactory: @OneToOne or @ManyToOne on com.nseit.GroceryShopping.model.UserHistory.cart references an unknown entity: java.util.Set
+2022-09-13 14:20:35 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 14:20:35 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 14:20:35 - INFO - Stopping service [Tomcat]
+2022-09-13 14:20:35 - ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.nseit.GroceryShopping.model.UserHistory.cart references an unknown entity: java.util.Set
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.nseit.GroceryShopping.GroceryShoppingApplication.main(GroceryShoppingApplication.java:11)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.nseit.GroceryShopping.model.UserHistory.cart references an unknown entity: java.util.Set
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:100)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processEndOfQueue(InFlightMetadataCollectorImpl.java:1750)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processFkSecondPassesInOrder(InFlightMetadataCollectorImpl.java:1694)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1623)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:295)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 19 common frames omitted
+2022-09-13 14:21:55 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 16236 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 14:21:55 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 14:21:56 - INFO - Starting service [Tomcat]
+2022-09-13 14:21:56 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 14:21:56 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 14:21:57 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 14:21:57 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 14:21:57 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 14:21:57 - INFO - HikariPool-1 - Starting...
+2022-09-13 14:21:57 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 14:21:57 - INFO - HikariPool-1 - Start completed.
+2022-09-13 14:21:57 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 14:21:58 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-13 14:22:00 - INFO - Started GroceryShoppingApplication in 5.587 seconds (JVM running for 6.124)
+2022-09-13 14:22:49 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 14:22:49 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 15:00:29 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 10760 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 15:00:29 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 15:00:31 - INFO - Starting service [Tomcat]
+2022-09-13 15:00:31 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 15:00:31 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 15:00:32 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 15:00:32 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 15:00:32 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 15:00:32 - INFO - HikariPool-1 - Starting...
+2022-09-13 15:00:32 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 15:00:32 - INFO - HikariPool-1 - Start completed.
+2022-09-13 15:00:32 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 15:00:33 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-13 15:00:35 - INFO - Started GroceryShoppingApplication in 5.902 seconds (JVM running for 6.46)
+2022-09-13 15:00:42 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-13 15:18:25 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 15:18:25 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 15:18:27 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 16288 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 15:18:27 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 15:18:29 - INFO - Starting service [Tomcat]
+2022-09-13 15:18:29 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 15:18:29 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 15:18:29 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 15:18:29 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 15:18:29 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 15:18:29 - INFO - HikariPool-1 - Starting...
+2022-09-13 15:18:29 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 15:18:29 - INFO - HikariPool-1 - Start completed.
+2022-09-13 15:18:29 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 15:18:30 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-13 15:18:31 - INFO - Started GroceryShoppingApplication in 3.733 seconds (JVM running for 4.098)
+2022-09-13 15:19:01 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-13 15:45:57 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 15:45:57 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 15:46:00 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 15024 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 15:46:00 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 15:46:01 - INFO - Starting service [Tomcat]
+2022-09-13 15:46:01 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 15:46:01 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 15:46:01 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 15:46:01 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 15:46:01 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 15:46:01 - INFO - HikariPool-1 - Starting...
+2022-09-13 15:46:01 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 15:46:02 - INFO - HikariPool-1 - Start completed.
+2022-09-13 15:46:02 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 15:46:02 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-13 15:46:03 - INFO - Started GroceryShoppingApplication in 3.771 seconds (JVM running for 4.137)
+2022-09-13 15:46:14 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-13 16:19:28 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 16:19:28 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 17:23:31 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 18088 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 17:23:31 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 17:23:32 - INFO - Starting service [Tomcat]
+2022-09-13 17:23:32 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 17:23:33 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 17:23:33 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 17:23:33 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 17:23:33 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 17:23:33 - INFO - HikariPool-1 - Starting...
+2022-09-13 17:23:33 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 17:23:33 - INFO - HikariPool-1 - Start completed.
+2022-09-13 17:23:33 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 17:23:34 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-13 17:23:36 - INFO - Started GroceryShoppingApplication in 5.093 seconds (JVM running for 5.611)
+2022-09-13 17:23:59 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-13 17:24:28 - ERROR - Invalid username or password.
+2022-09-13 17:24:30 - ERROR - Invalid username or password.
+2022-09-13 17:24:31 - ERROR - Invalid username or password.
+2022-09-13 17:24:31 - ERROR - Invalid username or password.
+2022-09-13 17:24:32 - ERROR - Invalid username or password.
+2022-09-13 17:24:32 - ERROR - Invalid username or password.
+2022-09-13 17:24:32 - ERROR - Invalid username or password.
+2022-09-13 17:24:33 - ERROR - Invalid username or password.
+2022-09-13 17:24:33 - ERROR - Invalid username or password.
+2022-09-13 17:24:33 - ERROR - Invalid username or password.
+2022-09-13 17:24:34 - ERROR - Invalid username or password.
+2022-09-13 17:42:52 - WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m18s302ms639µs800ns).
+2022-09-13 17:43:00 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 17:43:00 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-13 18:11:31 - INFO - Starting GroceryShoppingApplication using Java 18.0.2 on DELL-6JY1FL3 with PID 2636 (D:\project\GroceryShopping\target\classes started by Administrator in D:\project\GroceryShopping)
+2022-09-13 18:11:31 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 18:11:33 - INFO - Starting service [Tomcat]
+2022-09-13 18:11:33 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 18:11:33 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-13 18:11:33 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13 18:11:33 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-13 18:11:33 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13 18:11:33 - INFO - HikariPool-1 - Starting...
+2022-09-13 18:11:33 - WARN - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-09-13 18:11:34 - INFO - HikariPool-1 - Start completed.
+2022-09-13 18:11:34 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-13 18:11:34 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-13 18:11:36 - INFO - Started GroceryShoppingApplication in 5.076 seconds (JVM running for 5.574)
+2022-09-13 18:12:53 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-13 18:15:25 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-13 18:15:25 - INFO - HikariPool-1 - Shutdown completed.

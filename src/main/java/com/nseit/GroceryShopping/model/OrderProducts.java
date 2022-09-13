@@ -30,8 +30,10 @@ public class OrderProducts {
             inverseJoinColumns = @JoinColumn(name = "product_id"))
     private Set<Product> products;
 
-
-
+//
+//    @OneToMany
+//            (mappedBy = "orderProducts",cascade = CascadeType.ALL)
+//    private Set<UserHistory> userHistory;
 
     public OrderProducts() {
         this.dateTime = LocalDateTime.now();

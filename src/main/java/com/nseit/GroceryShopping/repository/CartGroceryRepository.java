@@ -10,7 +10,5 @@ import java.util.List;
 import java.util.Optional;
 @Repository
 public interface CartGroceryRepository extends JpaRepository<CartGrocery,Integer> {
-//    Optional<List<CartGrocery>> findByGroceryAndCart(Product product, Cart cart);
 
-//    Optional<List<CartGrocery>> findByCart(Cart cart);
 }

@@ -23,4 +23,8 @@ public class Cart {
     @OneToMany(mappedBy = "cart", cascade = CascadeType.ALL)
     private Set<CartGrocery> cartGroceries;
 
+    @OneToMany(mappedBy = "cart",cascade = CascadeType.ALL)
+    private Set<UserHistory> userHistories;
+
+
 }

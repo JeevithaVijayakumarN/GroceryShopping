@@ -38,6 +38,9 @@ public class GroceryUser {
             inverseJoinColumns = {@JoinColumn(name = "role_id", referencedColumnName = "id")})
     private Set<Role> roles;
 
+    @OneToMany(mappedBy = "groceryUser",cascade = CascadeType.ALL)
+    private Set<UserHistory> userHistory;
+
     public GroceryUser(String userName, String password) {
         this.userName = userName;
         this.password = password;
