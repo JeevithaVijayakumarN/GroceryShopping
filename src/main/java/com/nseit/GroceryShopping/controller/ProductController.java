@@ -8,7 +8,6 @@ import com.nseit.GroceryShopping.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -23,16 +22,16 @@ public class ProductController {
     @Autowired
     private APIResponse apiResponse;
 
-//    @Secured({Role.ROLE_ADMIN})
+    //    @Secured({Role.ROLE_ADMIN})
     @PostMapping
     public ResponseEntity<APIResponse> addProduct(@RequestBody ProductRequest productRequest) {
-       Product addedProduct = productService.addProduct(productRequest);
+        Product addedProduct = productService.addProduct(productRequest);
         apiResponse.setStatus(HttpStatus.CREATED.value());
         apiResponse.setData(addedProduct);
         return new ResponseEntity<>(apiResponse, HttpStatus.CREATED);
     }
 
-//    @Secured({Role.ROLE_ADMIN})
+    //    @Secured({Role.ROLE_ADMIN})
     @PutMapping
     public ResponseEntity<APIResponse> updateProduct(@RequestBody ProductRequest productRequest) {
         Product updatedProduct = productService.updateProduct(productRequest);
@@ -41,16 +40,16 @@ public class ProductController {
         return new ResponseEntity<>(apiResponse, HttpStatus.CREATED);
     }
 
-//    @Secured({Role.ROLE_ADMIN})
+    //    @Secured({Role.ROLE_ADMIN})
     @DeleteMapping("/{productId}")
     public ResponseEntity<APIResponse> deleteProduct(@PathVariable Integer productId) {
-       productService.deleteProduct(productId);
+        productService.deleteProduct(productId);
         apiResponse.setStatus(HttpStatus.OK.value());
         apiResponse.setData(new SuccessResponse());
         return new ResponseEntity<>(apiResponse, HttpStatus.CREATED);
     }
 
-//    @Secured({Role.ROLE_ADMIN, Role.ROLE_USER})
+    //    @Secured({Role.ROLE_ADMIN, Role.ROLE_USER})
     @GetMapping("/all")
     public ResponseEntity<APIResponse> viewAllProducts() {
         List<Product> products = productService.viewAllProducts();
@@ -59,7 +58,7 @@ public class ProductController {
         return new ResponseEntity<>(apiResponse, HttpStatus.CREATED);
     }
 
-//    @Secured({Role.ROLE_ADMIN, Role.ROLE_USER})
+    //    @Secured({Role.ROLE_ADMIN, Role.ROLE_USER})
     @GetMapping("/{productId}")
     public ResponseEntity<APIResponse> viewProductById(@PathVariable Integer productId) {
         Product product = productService.findProductById(productId);

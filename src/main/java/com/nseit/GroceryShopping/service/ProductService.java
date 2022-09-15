@@ -32,7 +32,7 @@ public class ProductService {
 
         boolean isProductExists = productRepository.findByProductName(productRequest.getProductName()).isPresent();
         if (isProductExists)
-            throw new ResourceAlreadyExistException("Book already exists.");
+            throw new ResourceAlreadyExistException("Product already exists.");
 
         return productRepository.save(product);
     }
@@ -41,7 +41,7 @@ public class ProductService {
         Product product = new Product();
         BeanUtils.copyProperties(productRequest, product);
         if (productRequest.getId() == null)
-            throw new ResourceNotFoundException("No book with id "
+            throw new ResourceNotFoundException("No product with id "
                     + productRequest.getId());
         Category category = categoryRepository.findById(productRequest.getCategoryId())
                 .orElseThrow(() -> new ResourceNotFoundException("No category with category id "
@@ -52,7 +52,7 @@ public class ProductService {
 
     public void deleteProduct(Integer productId) {
        productRepository.findById(productId).orElseThrow(() ->
-                new ResourceNotFoundException("No book with id "
+                new ResourceNotFoundException("No product with id "
                         + productId));
         productRepository.deleteById(productId);
     }
@@ -63,7 +63,7 @@ public class ProductService {
 
     public Product findProductById(Integer productId) {
         return productRepository.findById(productId)
-                .orElseThrow(() -> new ResourceNotFoundException("Unable to find book with id " + productId));
+                .orElseThrow(() -> new ResourceNotFoundException("Unable to find product with id " + productId));
     }
 
 }
